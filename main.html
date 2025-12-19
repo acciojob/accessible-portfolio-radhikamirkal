@@ -1,16 +1,39 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Accessible Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <!-- Heading -->
+    <h1 role="heading">My Accessible Portfolio</h1>
 
+    <!-- Navigation Bar -->
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem">Home</li>
+            <li role="listitem">About</li>
+            <li role="listitem">Contact</li>
+        </ul>
+    </nav>
+
+    <!-- Image -->
+    <img role="img" src="profile.jpg" alt="Profile picture of portfolio owner">
+
+    <!-- Brief Description -->
+    <p>
+        Welcome to my portfolio. This page is built with accessibility in mind using proper ARIA roles.
+    </p>
+
+    <!-- List with at least three items -->
+    <ul role="list">
+        <li role="listitem">Web Development</li>
+        <li role="listitem">UI/UX Design</li>
+        <li role="listitem">Accessibility Best Practices</li>
+    </ul>
+
+    <script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>
